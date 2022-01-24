@@ -1,9 +1,43 @@
-.bg-color{
-    background-color: bisque;
+
+
+@media only screen and (max-width: 830px) {
+    .caurosel-heading{
+        font-size:25px !important;      
+    }
+    .responsive-btn{
+        font-size: 12px !important;
+    }
+    .responsive-info{
+        font-size: 12px !important;
+    }
+    
 }
-.bg-img-color{
-    background-color: #f1f1f1;
+@media only screen and (max-width: 500px) {
+    .caurosel-heading{
+        font-size:18px !important;      
+    }
+    .responsive-btn{
+        font-size: 10px !important;
+        padding: 3px 7px !important;
+    }
+    .responsive-info{
+        font-size: 12px !important;
+        margin: 3px 0 !important;
+    }
+    
 }
-.text-color{
-    color: #FA804C;
+@media only screen and (max-width: 418px) {
+   
+    .slide-description{
+        width: 300px !important;
+        height: 80px !important;
+    }
+    .caurosel-heading{
+        font-size:12px !important;  
+        font-weight: bold !important;    
+    }
+    .responsive-info{
+        font-size: 10px !important;
+        margin: 3px 0 !important;
+    }
 }
