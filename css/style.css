@@ -1,5 +1,13 @@
-
-
+.text-color{
+    color: #231d4f;
+}
+.paragrap-color{
+    color: #9b99ac;
+    font-size: 16px;
+}
+.bg-btn{
+    background-color: #fef5fa !important;
+}
 @media only screen and (max-width: 830px) {
     .caurosel-heading{
         font-size:25px !important;      
