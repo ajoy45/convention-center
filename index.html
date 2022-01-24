@@ -14,7 +14,7 @@
 </head>
 <body>
     <!-- header part -->
-    <header>
+        <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-white">
             <div class="container">
               <a class="navbar-brand fs-2" href="#">Conventional Hotel</a>
@@ -273,7 +273,106 @@
               </div>
             </div>
           </section>
+          <!-- toast section -->
+          <section>
+            
+             <div class="container text-center py-5">
+              <button type="button" class="btn btn-primary" id="liveToastBtn">Show live toast</button>
+
+              <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+                <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                  <div class="toast-header">
+                    <img src="..." class="rounded me-2" alt="...">
+                    <strong class="me-auto">Bootstrap</strong>
+                    <small>11 mins ago</small>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                  </div>
+                  <div class="toast-body">
+                    Hello, world! This is a toast message.
+                  </div>
+                </div>
+              </div>
+             </div>
+            
+            
+          </section>
+          <!-- perfect part -->
+     <section class="mb-5 mt-5">
+      <div class="container">
+          <div class="row d-flex justify-content-center align-items-center">
+              <div class="col-lg-5">
+                  <div class="row row-cols-1 gy-3">
+                      <div class="col  d-flex justify-content-center align-items-center shadow-lg rounded-3">
+                          <div>
+                              <img width="78" src="icons/image 12.png" alt="">
+                         </div>
+                         <div class="ms-3">
+                             <h1>Find the Perfect Fit</h1>
+                             <p>Everybody is different, which is why we
+                                 offer styles for every body.</p>
+                         </div>
+                      </div>
+                      <div class="col  d-flex justify-content-center align-items-center shadow-lg rounded-3">
+                         <div>
+                             <img  width="78" src="icons/image 12.png" alt="">
+                        </div>
+                        <div class="ms-3">
+                            <h1>Find the Perfect Fit</h1>
+                            <p>Everybody is different, which is why we
+                                offer styles for every body.</p>
+                        </div>
+                      </div>
+                      <div class="col  d-flex justify-content-center align-items-center shadow-lg rounded-3">
+                         <div>
+                             <img  width="78" src="icons/image 12.png" alt="">
+                        </div>
+                        <div class="ms-3">
+                            <h1>Find the Perfect Fit</h1>
+                            <p>Everybody is different, which is why we
+                                offer styles for every body.</p>
+                        </div>
+                      </div>
+                  </div>
+
+              </div>
+              <div class="col-lg-7">
+                  <img width="450" src="images/person 1.png" alt="">
+
+              </div>
+          </div>
+      </div>
+  </section>
+          <!-- footer part -->
+          <footer>
+            <section style="background-color: #0b0d17;" class="p-4">
+              <div class="container">
+                <div class="row d-flex justify-content-center align-items-center">
+                  <div class="col-12 col-sm-4 order-last order-lg-first">
+                      <p class="text-white ">© 2020 bike. All rights reserved</p>
+                  </div>
+                  <div class="col-12 col-sm-8 text-end  ">
+                    <h2 class="text-white">Get the App</h2>
+                    <a class="d-block pb-1" href=""><img width="160" src="images/app.jpeg" alt=""></a>
+                    <a href=""><img width="160" src="images/play.jpeg" alt=""></a>
+
+                  </div>
+                </div>
+              </div>
+            </section>
+          </footer>
         </main>
+
+        <script>
+          var toastTrigger = document.getElementById('liveToastBtn')
+          var toastLiveExample = document.getElementById('liveToast')
+          if (toastTrigger) {
+            toastTrigger.addEventListener('click', function () {
+          var toast = new bootstrap.Toast(toastLiveExample)
+
+    toast.show()
+  })
+}
+        </script>
 
     <!-- bootstrap js -->
     <script src="js/bootstrap.bundle.min.js"></script>
