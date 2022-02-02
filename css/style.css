@@ -1,6 +1,9 @@
 .text-color{
     color: #231d4f;
 }
+.carousel-item img{
+   height: 70vh;
+}
 .paragrap-color{
     color: #9b99ac;
     font-size: 16px;
@@ -9,7 +12,7 @@
     background-color: #fef5fa !important;
 }
 @media only screen and (max-width: 830px) {
-    .caurosel-heading{
+    /* .caurosel-heading{
         font-size:25px !important;      
     }
     .responsive-btn{
@@ -17,11 +20,14 @@
     }
     .responsive-info{
         font-size: 12px !important;
-    }
+    } */
+    .carousel-item img{
+        height: 70vh;
+     }
     
 }
 @media only screen and (max-width: 500px) {
-    .caurosel-heading{
+    /* .caurosel-heading{
         font-size:18px !important;      
     }
     .responsive-btn{
@@ -32,11 +38,14 @@
         font-size: 12px !important;
         margin: 3px 0 !important;
     }
-    
+     */
+     .carousel-item img{
+        height: 70vh;
+     }
 }
 @media only screen and (max-width: 418px) {
    
-    .slide-description{
+    /* .slide-description{
         width: 300px !important;
         height: 80px !important;
     }
@@ -47,5 +56,8 @@
     .responsive-info{
         font-size: 10px !important;
         margin: 3px 0 !important;
-    }
+    } */
+    .carousel-item img{
+        height: 70vh;
+     }
 }
